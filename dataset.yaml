@@ -1,7 +1,7 @@
 # Dataset configuration for local training
 # Points to the YOLO-format dataset on local system
 
-path: /home/surya/miniproject_antigravity/dataset_combined/dataset
+path: yolov8n_baseline_SODA/dataset
 train: images/train
 val: images/val
 test: images/test
