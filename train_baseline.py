@@ -5,7 +5,7 @@ Trains a standard YOLOv8n model for PPE detection to establish baseline metrics.
 Paper reports: mAP@0.5 = 70.2%, mAP@0.5:0.95 = 35.1%, Params = 3.0M, GFLOPs = 8.1
 
 Usage:
-    cd /home/surya/miniproject_antigravity
+    cd yolov8n_baseline_SODA
     ./venv/bin/python train_baseline.py
 """
 
