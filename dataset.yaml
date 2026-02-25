@@ -1,0 +1,13 @@
+# Dataset configuration for local training
+# Points to the YOLO-format dataset on local system
+
+path: /home/surya/miniproject_antigravity/dataset_combined/dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 3
+names:
+  0: person
+  1: helmet
+  2: vest
