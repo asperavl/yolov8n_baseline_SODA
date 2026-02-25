@@ -10,7 +10,7 @@ Usage:
 """
 
 import sys
-sys.path.insert(0, '/home/surya/miniproject_antigravity')
+sys.path.insert(0, 'yolov8n_baseline_SODA')
 
 from ultralytics import YOLO
 
@@ -21,7 +21,7 @@ def main():
 
     # Training hyperparameters (matching paper exactly, adjusted for hardware)
     results = model.train(
-        data='/home/surya/miniproject_antigravity/dataset.yaml',
+        data='yolov8n_baseline_SODA/dataset.yaml',
         epochs=300,
         batch=16,           # Matches paper
         imgsz=640,
@@ -45,7 +45,7 @@ def main():
     print("="*60)
     
     metrics = model.val(
-        data='/home/surya/miniproject_antigravity/dataset.yaml',
+        data='yolov8n_baseline_SODA/dataset.yaml',
         split='test',
     )
     
