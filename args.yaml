@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: runs/baseline/final/weights/last.pt
-data: /home/surya/miniproject_antigravity/dataset.yaml
+model: yolov8n_baseline_SODA/weights/last.pt
+data: yolov8n_baseline_SODA/dataset.yaml
 epochs: 300
 time: null
 patience: 0
@@ -24,7 +24,7 @@ single_cls: false
 rect: false
 cos_lr: false
 close_mosaic: 10
-resume: runs/baseline/final/weights/last.pt
+resume: yolov8n_baseline_SODA/weights/last.pt
 amp: true
 fraction: 1.0
 profile: false
